@@ -125,9 +125,9 @@ body {
     height: 200px;
     border-radius:50%;
     margin: auto;
-    background:url(./assets/img/avatar/1.png)no-repeat;
-    /* background-size:200%; */
-    background-position: 40% 0; 
+    background:url(./assets/img/avatar/1.jpg)no-repeat;
+    background-size:200%;
+    background-position: 77% 35%; 
     transition: all .3s ease-out;
     z-index:9999;
     border: 15px solid transparent;
