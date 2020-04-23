@@ -145,13 +145,13 @@ body {
 }
 .site-banner .banner-area .author a::before {
     content: "";
-    border: 90px solid rgba(255,255,255,0.6);
+    border: 90px solid rgba(255,255,255,0.6)!important;
     border-radius: 50%;
     /* height: 120px; */
     /* width: 120px; */
     position: absolute;
-    left: -90px;
-    bottom: -15px; 
+    left: -90px!important;
+    bottom: -15px!important; 
     /* transform: translate(-50px, -50px); */
     -webkit-animation: pulsate 1.6s ease-out;
     animation: pulsate 1.6s ease-out;
