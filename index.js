@@ -13,14 +13,14 @@ $(document).ready(function(e){
     $toggle.click(function(e){
         $navbar.toggleClass("toggle-left");
     });
-    $link.click(function(e){
-        $navbar.toggleClass("toggle-left");
-    })
 
 });
 
 function toggle_onclick($win,$navbar,width){
     if( $win.width() < 768 ){
+        $link.click(function(e){
+            $navbar.toggleClass("toggle-left");
+        });
     $navbar.css({left:"-200px"});
        // $navbar.css({left:`-$(width)px`});
 }else{
